@@ -3,7 +3,7 @@
     class="main-menu menu-fixed menu-accordion menu-shadow"
     :class="[
       { 'expanded': !isVerticalMenuCollapsed || (isVerticalMenuCollapsed && isMouseHovered) },
-      skin === 'semi-dark' ? 'menu-dark' : 'menu-light'
+      skin === 'semi-dark' ? 'menu-semi-dark' : 'menu-dark'
     ]"
     @mouseenter="updateMouseHovered(true)"
     @mouseleave="updateMouseHovered(false)"
